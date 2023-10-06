@@ -8,6 +8,12 @@ body {
     text-shadow: 1px 1px 2px black;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header {
     text-align: center;
     margin: 50px;
@@ -44,4 +50,26 @@ header {
     box-shadow: 2px 2px 2px lightgray;
     max-height: 300px;
     width: 100%;
+}
+
+a.card {
+    text-decoration: none;
+}
+
+a.card:hover {
+    background-color: lightgray;
+    transition-duration: 0.2s;
+}
+
+a.card:active {
+    background-color: gold;
+}
+
+.article-body {
+    width: 90%;
+    max-width: 900px;
+}
+
+.article-body img {
+    width: 400px;
 }
