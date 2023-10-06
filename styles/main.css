@@ -1,0 +1,47 @@
+body {
+    background: url("../bg.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-clip: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+header {
+    text-align: center;
+    margin: 50px;
+}
+
+.card {
+    padding: 15px;
+    border: 1px solid gray;
+    margin: 0 10px;
+    box-shadow: 2px 2px 2px gray;
+    text-align: center;
+    background-color: white;
+    color: black;
+    text-shadow: none;
+}
+
+.card-body {
+    margin: 10px auto;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-image {
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 2px lightgray;
+    max-height: 300px;
+    width: 100%;
+}
